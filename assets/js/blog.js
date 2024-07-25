@@ -25,4 +25,4 @@ function renderBlog(){
     }
 }
 
-// remember to use renderBlog() to call the function. We need to do initialization next
+renderBlog()
