@@ -9,10 +9,35 @@ body {
 }
 
 .header {
-    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
     border-bottom: black solid 3px;
+    align-items: center;
 }
 
 .header nav {
     float: right;
+    margin-left: 75%;
+}
+
+#backbutton {
+    margin: 0px 15px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Styling for the blog section*/
+#blogposts {
+    padding: 10px;
+}
+
+/*Styling for the blogs that get posted to the page*/
+#blogposts div {
+    border: black 3px solid;
+    margin: 30px;
+    padding: 20px;
 }

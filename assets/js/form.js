@@ -4,7 +4,19 @@ const titleInput = document.querySelector('#title');
 const contentInput = document.querySelector('#content');
 const submitButton = document.querySelector('#submit');
 
-const blogArray = [];
+let blogArray = [];
+
+//Init function also needed on this page in order to pick up multiple stored blogs in localstorage and post them to the blog page. 
+//If I didn't also perform the init function on this page, each blog post seemed to overwrite the previous one entered.
+function init() {
+    //Get stored blogs from localstorage
+    const storedBlogs = JSON.parse(localStorage.getItem('blogs'));
+
+    //If blogs were retrived from localstorage, update blogArray
+    if (storedBlogs !== null) {
+        blogArray = storedBlogs;
+    }
+}
 
 //Event listener for the Submit button
 submitButton.addEventListener('click', function (event){
@@ -32,3 +44,5 @@ submitButton.addEventListener('click', function (event){
     //After clicking on submit, redirect user to the next page
     location.href='./blog.html';
 })
+
+init()
