@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: row;
     padding: 30px;
-    border-bottom: black solid 3px;
+    border-bottom: rgba(93, 80, 80, 0.414)  solid 3px;
     align-items: center;
 }
 
@@ -37,7 +37,7 @@ main {
 
 /*Styling for the blogs that get posted to the page*/
 #blogposts div {
-    border: black 3px solid;
+    border: rgba(93, 80, 80, 0.414)  3px solid;
     margin: 30px;
     padding: 20px;
 }

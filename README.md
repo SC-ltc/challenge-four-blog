@@ -16,6 +16,9 @@ https://github.com/SC-ltc/challenge-four-blog
 
 The images below show the page's intended appearance and functionality.
 
+![screenshot](assets/images/bloglight.png)
+
+![screenshot](assets/images/blogdark.png)
 
 
 

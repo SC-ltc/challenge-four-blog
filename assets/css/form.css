@@ -10,7 +10,7 @@ body {
 
 .header {
     padding: 40px;
-    border-bottom: black solid 3px;
+    border-bottom: rgba(93, 80, 80, 0.414)  solid 3px;
 }
 
 .header h1 {

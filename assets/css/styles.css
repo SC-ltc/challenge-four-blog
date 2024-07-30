@@ -1,0 +1,18 @@
+/* Light mode */
+.light {
+    background-color: whitesmoke;
+    height: 100vh;
+    color: black;
+}
+
+/* Dark mode */
+.dark {
+    background-color: rgb(102, 94, 94);
+    height: 100vh;
+    color: rgb(211, 211, 211);
+}
+
+.footer {
+    padding: 40px;
+    border-top: rgba(93, 80, 80, 0.414) solid 3px;
+}
